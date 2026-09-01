@@ -10,7 +10,7 @@
     <h3>{{ recipe.title }}</h3>
     {% if recipe.subtitle %}<p>{{ recipe.subtitle }}</p>{% endif %}
     <div class="card-meta">
-      {% if total_time %}<span>ca. {{ total_time }}</span>{% endif %}
+      {% if total_time %}<span>{{ total_time }}</span>{% endif %}
       <span class="status status-{{ recipe.status | slugify }}">{{ recipe.status }}</span>
     </div>
   </a>
