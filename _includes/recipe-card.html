@@ -1,0 +1,17 @@
+{% assign recipe = include.recipe %}
+{% assign total_time = recipe.total_time | default: recipe.cook_time %}
+{% assign tags_text = recipe.tags | join: ' ' %}
+<article class="recipe-card" data-category="{{ recipe.category | escape }}" data-search="{{ recipe.title | append: ' ' | append: recipe.subtitle | append: ' ' | append: recipe.category | append: ' ' | append: tags_text | downcase | escape }}">
+  <a href="{{ recipe.url | relative_url }}">
+    <div class="card-top">
+      <span class="card-category">{{ recipe.category }}</span>
+      {% if recipe.favourite %}<span class="favourite" aria-label="Favorit" title="Favorit">★</span>{% endif %}
+    </div>
+    <h3>{{ recipe.title }}</h3>
+    {% if recipe.subtitle %}<p>{{ recipe.subtitle }}</p>{% endif %}
+    <div class="card-meta">
+      {% if total_time %}<span>ca. {{ total_time }}</span>{% endif %}
+      <span class="status status-{{ recipe.status | slugify }}">{{ recipe.status }}</span>
+    </div>
+  </a>
+</article>

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="recipe">
+  <header class="recipe-header">
+    <p class="eyebrow">{{ page.category }}{% if page.origin %} · {{ page.origin }}{% endif %}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+    <div class="recipe-meta">
+      {% if page.servings %}<span><b>Menge</b> {{ page.servings }}</span>{% endif %}
+      {% if page.prep_time %}<span><b>Vorbereitung</b> {{ page.prep_time }}</span>{% endif %}
+      {% if page.cook_time %}<span><b>Garzeit</b> {{ page.cook_time }}</span>{% endif %}
+      {% if page.status %}<span class="status status-{{ page.status | slugify }}"><b>Status</b> {{ page.status }}</span>{% endif %}
+    </div>
+    {% if page.tags %}<p class="tags">{% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}</p>{% endif %}
+  </header>
+  <div class="recipe-body">{{ content }}</div>
+  <nav class="recipe-footer" aria-label="Rezeptnavigation">
+    <a href="{{ '/' | relative_url }}">← Alle Rezepte</a>
+    <button type="button" onclick="window.print()">Rezept drucken</button>
+  </nav>
+</article>
