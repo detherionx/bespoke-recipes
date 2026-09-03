@@ -1,68 +1,75 @@
 ---
 layout: recipe
 title: "Ofen-Kabocha mit grober Bratwurst"
-subtitle: "Herbstliches Blechgericht mit optionaler Senf-Schmand-Sauce"
+subtitle: "Gerösteter Kürbis, grobe Schweinebratwurst & Senf-Schmand"
 category: "German Autumn"
 origin: "Deutschland"
-servings: "3–4"
-prep_time: "20 Min."
-cook_time: "35–45 Min."
-total_time: "ca. 1 Std."
+servings: "3 hungry people"
+prep_time: "20 minutes"
+cook_time: "35–45 minutes"
 tags:
   - Kürbis
+  - Kabocha
   - Bratwurst
-  - Blechgericht
-favourite: false
-status: tested
+  - Herbst
+  - German
+favourite: true
+status: developing
 ---
 
-Ein schlichtes Herbstblech: nussiger Kabocha mit karamellisierten Rändern, grobe rohe Bratwurst und weiche Röstzwiebeln.
+Ein unkompliziertes Herbstessen vom Blech: nussiger Kabocha, grobe rohe Schweinebratwurst und Zwiebeln mit kaltem Senf-Schmand.
 
 ## Shopping List
 
 ```text
 SHOPPING LIST
 
-FLEISCH
-400–500 g grobe rohe Schweinebratwurst
+OFEN-KABOCHA MIT BRATWURST
 
-GEMÜSE
+OBST & GEMÜSE
 1 mittelgroßer Kabocha-Kürbis
-1–2 Zwiebeln
-2 Knoblauchzehen
-optional Thymian oder Rosmarin
+2 Zwiebeln
+1 Knoblauch
+
+FLEISCH / WURST
+500–600 g grobe rohe Schweinebratwurst
 
 KÜHLREGAL
-optional 150 g Schmand
+200 g Schmand
 
-VORRAT
-Öl
+VORRAT – FALLS NICHT DA
+Mittelscharfer Senf
+Rapsöl oder Olivenöl
+Paprikapulver edelsüß
+Thymian
 Salz
-Pfeffer
-optional mittelscharfer Senf
-optional Zitronensaft oder Apfelessig
+Schwarzer Pfeffer
 ```
 
 ## Ingredients
 
 | Menge | Zutat |
 |---:|---|
-| 1 mittelgroßer | Kabocha-Kürbis |
-| 400–500 g | grobe rohe Schweinebratwurst |
-| 1–2 | Zwiebeln, in Spalten |
-| 2 | Knoblauchzehen, angedrückt |
-| 2 EL | neutrales Öl |
-| nach Geschmack | Salz und Pfeffer |
-| optional | Thymian oder Rosmarin |
+| 1 mittelgroßer, ca. 1,2–1,6 kg | Kabocha-Kürbis |
+| 500–600 g | grobe rohe Schweinebratwurst, etwa 5 Würste |
+| 2 | Zwiebeln |
+| 3 | Knoblauchzehen |
+| 2 EL | Rapsöl oder Olivenöl |
+| 1 TL | Paprikapulver edelsüß |
+| ½ TL | getrockneter Thymian |
+| 1–1¼ TL | Salz |
+| nach Geschmack | schwarzer Pfeffer |
 
-### Optionale Senf-Schmand-Sauce
+### Senf-Schmand
 
 | Menge | Zutat |
 |---:|---|
-| 150 g | Schmand |
-| 1–2 TL | mittelscharfer Senf |
-| 1 TL | Zitronensaft oder Apfelessig |
-| nach Geschmack | Salz und Pfeffer |
+| 200 g | Schmand |
+| 1½ EL | mittelscharfer Senf |
+| 1–2 EL | Wasser |
+| ½ TL | Zucker |
+| 1 Prise | Salz |
+| nach Geschmack | schwarzer Pfeffer |
 
 ## Equipment
 
@@ -72,29 +79,32 @@ optional Zitronensaft oder Apfelessig
 
 ## Instructions
 
-1. Ofen auf 210 °C Ober-/Unterhitze vorheizen. Kabocha gründlich waschen, halbieren und entkernen. Die essbare Schale kann bleiben. In 2–3 cm breite Spalten schneiden.
-2. Kürbis, Zwiebeln und Knoblauch mit Öl, Salz, Pfeffer und optional Kräutern mischen. Auf dem Blech mit ausreichend Abstand verteilen.
-3. 15 Minuten vorbacken. Bratwürste je nach Größe ganz lassen oder in große Stücke teilen, dann zwischen den Kürbis legen.
-4. Weitere 20–30 Minuten rösten. Kürbis und Wurst einmal wenden, wenn die Unterseiten kräftig bräunen. Wurst vollständig durchgaren.
-5. Für die Sauce Schmand, Senf und Säure verrühren und mit Salz und Pfeffer abschmecken. Kalt zum heißen Blech servieren.
+1. Ofen auf 200 °C Ober-/Unterhitze oder 180 °C Umluft vorheizen.
+2. Kabocha waschen, halbieren und Kerne sowie faseriges Inneres entfernen. In 3–4 cm breite Spalten oder Stücke schneiden. Die Schale ist nach dem Rösten essbar; besonders harte Stellen können beim Essen liegen bleiben.
+3. Zwiebeln vierteln. Ganze Knoblauchzehen leicht andrücken.
+4. Kürbis, Zwiebeln und Knoblauch direkt auf einem großen Blech mit Öl, Paprika, Thymian, Salz und Pfeffer mischen. Alles in einer lockeren Lage verteilen und nicht zu einem tiefen Haufen zusammenschieben.
+5. Den Kürbis zunächst 15 Minuten ohne Wurst rösten.
+6. Ganze Bratwürste zwischen die Kürbisstücke legen. Einige Kürbisstücke wenden, damit frische Flächen das heiße Blech berühren.
+7. Weitere 20–30 Minuten rösten. Die Würste einmal wenden. Sie sollen kräftig gebräunt und vollständig durchgegart sein; mindestens 70 °C Kerntemperatur sind ein nützlicher Zielwert.
+8. Währenddessen Schmand, Senf, Zucker, Salz und Pfeffer verrühren. Nur so viel Wasser zugeben, dass die Sauce gut löffelbar wird.
+9. Heißen Kürbis, Zwiebeln und Bratwurst mit großzügigen Löffeln kaltem Senf-Schmand servieren.
 
 ## What to Look For
 
-- Kürbiskanten sind dunkelgolden karamellisiert; das Innere ist weich und cremig.
-- Zwiebeln sind weich mit gebräunten Spitzen, nicht schwarz.
-- Die rohe Schweinebratwurst ist bis in die Mitte vollständig gegart; im Zweifel Kerntemperatur prüfen.
+- Der Kabocha ist innen weich und fast kastanienartig, an den Kanten aber deutlich braun karamellisiert.
+- Die Bratwurst ist außen tief gebräunt und innen vollständig durchgegart.
+- Das Blech nicht allein deshalb aus dem Ofen nehmen, weil der Kürbis weich ist. Bleibt alles blass, weitere 5 Minuten rösten.
 
 ## Notes / Lessons Learned
 
-- Kürbis bekommt nur mit Abstand und ausreichend Hitze Röstkanten. Ein überfülltes Blech dämpft.
-- Kabocha-Schale ist essbar und wird beim Rösten weich; beschädigte oder sehr harte Stellen entfernen.
-- Bratwurst später zugeben, damit sie nicht austrocknet, bevor der Kürbis weich ist.
+- Die ersten 15 Minuten ohne Wurst geben dem Kürbis den notwendigen Vorsprung.
+- Abstand auf dem Blech ist wichtig: Ein tiefer, überfüllter Haufen dämpft statt zu rösten.
+- Weichheit allein reicht nicht; die dunkleren Röststellen gehören zum gewünschten Geschmack.
 
 ## Storage / Reheating
 
-Bis zu 3 Tage kühlen. Auf einem Blech bei 180 °C vollständig erhitzen; Sauce getrennt kalt lagern. Nicht bei Raumtemperatur stehen lassen.
+Reste zügig abkühlen und bis zu 3 Tage gekühlt lagern. Kürbis und Bratwurst im Ofen vollständig erhitzen; den Senf-Schmand getrennt kalt halten.
 
 ## Variations
 
-- Ein halber säuerlicher Apfel in Spalten passt zum letzten Drittel der Garzeit.
-- Statt Kräutern nur grob gemahlenen schwarzen Pfeffer verwenden, um das Gericht noch schlichter zu halten.
+- Rapsöl und Olivenöl funktionieren beide; die übrige Würzung bleibt unverändert.
