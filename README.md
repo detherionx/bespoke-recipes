@@ -22,12 +22,13 @@ The raw files in [`_recipes`](./_recipes/) are intended to remain useful directl
 ├── favourites.md
 ├── about.md
 ├── _recipes/
+├── _lebensmittel/
 ├── _layouts/
 ├── _includes/
 └── assets/
 ```
 
-Jekyll turns each Markdown file in `_recipes` into a recipe page. The home and favourites pages are generated from front matter, so a recipe only needs to be maintained in one place.
+Jekyll turns each Markdown file in `_recipes` into a recipe page and each file in `_lebensmittel` into a Lebensmittelkunde page. The home and favourites pages are generated from front matter, so a recipe only needs to be maintained in one place. The structured food-storage schema is documented in [`lebensmittelkunde/README.md`](./lebensmittelkunde/README.md).
 
 ## Enable GitHub Pages
 

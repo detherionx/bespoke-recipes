@@ -8,6 +8,8 @@ permalink: /about/
 
 Dies ist eine persönliche, wachsende Rezeptsammlung: deutsche Imbissgerichte, Familienküche und Gerichte, die unterwegs hängen geblieben sind. Einige Rezepte sind Rekonstruktionen nach Geschmack, Foto und Kocherfahrung – keine Behauptung, ein Restaurantoriginal zu besitzen.
 
+Die Lebensmittelkunde ergänzt das Rezeptbuch um praktische Haushaltsfragen: Wo kommt ein Einkauf hin, welche Lebensmittel sollten getrennt werden und was sollte zuerst verbraucht werden? Auch diese Hinweise bleiben als lesbare Markdown-Dateien und einfach strukturierte YAML-Daten erhalten.
+
 Der Status ist absichtlich sichtbar:
 
 - **tested**: tatsächlich gekocht; die angegebene Fassung hat funktioniert.

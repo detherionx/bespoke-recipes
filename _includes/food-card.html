@@ -1,0 +1,9 @@
+{% assign food = include.food %}
+<article class="food-card">
+  <a href="{{ food.url | relative_url }}">
+    <span class="food-zone">{{ food.where_short | default: food.where_text }}</span>
+    <h3>{{ food.title }}</h3>
+    <p>{{ food.packaging_short | default: food.packaging_guidance }}</p>
+    {% if food.keep_away_from and food.keep_away_from.size > 0 %}<small>Trennung beachten</small>{% endif %}
+  </a>
+</article>

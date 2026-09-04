@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<article class="food-page">
+  <header class="food-header">
+    <p class="eyebrow">Lebensmittelkunde</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+  </header>
+
+  <section class="food-facts" aria-label="Lagerung auf einen Blick">
+    <div class="food-fact food-fact-primary">
+      <h2>Wohin?</h2>
+      <p>{{ page.where_text }}</p>
+    </div>
+    <div class="food-fact">
+      <h2>Verpackung?</h2>
+      <p>{{ page.packaging_guidance }}</p>
+    </div>
+    <div class="food-fact">
+      <h2>Wie lange?</h2>
+      <p>{{ page.typical_storage.display }}</p>
+    </div>
+    <div class="food-fact food-fact-warning">
+      <h2>Fernhalten von?</h2>
+      {% if page.keep_away_from and page.keep_away_from.size > 0 %}
+        <p class="relationship-list">
+          {% for away_id in page.keep_away_from %}
+            {% assign away_food = site.lebensmittel | where: "food_id", away_id | first %}
+            {% if away_food %}<a href="{{ away_food.url | relative_url }}">{{ away_food.title }}</a>{% else %}<code>{{ away_id }}</code>{% endif %}{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </p>
+      {% else %}
+        <p>Keine besondere Trennung dokumentiert.</p>
+      {% endif %}
+    </div>
+    <div class="food-fact food-fact-signs">
+      <h2>Problemzeichen?</h2>
+      <ul>{% for sign in page.problem_signs %}<li>{{ sign }}</li>{% endfor %}</ul>
+    </div>
+  </section>
+
+  {% if page.why %}
+  <aside class="why-card">
+    <h2>Warum?</h2>
+    <p>{{ page.why }}</p>
+  </aside>
+  {% endif %}
+
+  <div class="food-body">{{ content }}</div>
+
+  {% if page.notes %}
+  <section class="food-notes">
+    <h2>Hinweise</h2>
+    <ul>{% for note in page.notes %}<li>{{ note }}</li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+
+  <nav class="food-footer" aria-label="Lebensmittelkunde-Navigation">
+    <a href="{{ '/lebensmittelkunde/' | relative_url }}">← Lebensmittelkunde</a>
+    <a href="{{ '/lebensmittelkunde/zusammen-lagern/' | relative_url }}">Was darf zusammen liegen?</a>
+  </nav>
+</article>

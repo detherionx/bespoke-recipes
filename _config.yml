@@ -1,5 +1,5 @@
 title: Bespoke Recipes
-description: Ein persönliches, wachsendes Rezeptbuch für Imbissklassiker, Familienküche und Reisegerichte.
+description: Ein persönliches Rezeptbuch mit praktischer Lebensmittelkunde für Einkauf, Lagerung und Küche.
 lang: de-DE
 url: "https://detherionx.github.io"
 baseurl: "/bespoke-recipes"
@@ -9,12 +9,20 @@ collections:
   recipes:
     output: true
     permalink: /recipes/:name/
+  lebensmittel:
+    output: true
+    permalink: /lebensmittelkunde/:name/
 defaults:
   - scope:
       path: ""
       type: recipes
     values:
       layout: recipe
+  - scope:
+      path: ""
+      type: lebensmittel
+    values:
+      layout: food
 exclude:
   - README.md
   - Gemfile
