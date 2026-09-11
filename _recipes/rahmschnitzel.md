@@ -92,3 +92,4 @@ Sauce und Schnitzel möglichst getrennt bis zu 2 Tage kühlen. Sauce langsam erh
 ## Variations
 
 - Für mehr Pfefferaroma etwas frisch gemahlenen schwarzen Pfeffer ergänzen, den weißen Pfeffer aber als Hauptnote behalten.
+- Variation: [Pfifferlingsrahmsoße]({{ '/recipes/pfifferlingsrahmsosse/' | relative_url }}) mit gebratenen Pfifferlingen und Zwiebel.
